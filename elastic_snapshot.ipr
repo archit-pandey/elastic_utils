@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="CopyrightManager" default="" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+      <option name="myLocal" value="true" />
+      <inspection_tool class="ComparatorNotSerializable" enabled="true" level="WARNING" enabled_by_default="true" />
+      <inspection_tool class="ExternalizableWithSerializationMethods" enabled="true" level="WARNING" enabled_by_default="true" />
+      <inspection_tool class="NonSerializableFieldInSerializableClass" enabled="true" level="WARNING" enabled_by_default="true">
+        <option name="ignorableAnnotations">
+          <value />
+        </option>
+        <option name="ignoreAnonymousInnerClasses" value="false" />
+        <option name="superClassString" value="java.awt.Component" />
+      </inspection_tool>
+      <inspection_tool class="NonSerializableObjectBoundToHttpSession" enabled="true" level="WARNING" enabled_by_default="true" />
+      <inspection_tool class="NonSerializableObjectPassedToObjectStream" enabled="true" level="WARNING" enabled_by_default="true" />
+      <inspection_tool class="NonSerializableWithSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true" />
+      <inspection_tool class="NonSerializableWithSerializationMethods" enabled="true" level="WARNING" enabled_by_default="true" />
+      <inspection_tool class="ReadObjectAndWriteObjectPrivate" enabled="true" level="WARNING" enabled_by_default="true" />
+      <inspection_tool class="ReadObjectInitialization" enabled="true" level="WARNING" enabled_by_default="true" />
+      <inspection_tool class="ReadResolveAndWriteReplaceProtected" enabled="true" level="WARNING" enabled_by_default="true" />
+      <inspection_tool class="SerialPersistentFieldsWithWrongSignature" enabled="true" level="WARNING" enabled_by_default="true" />
+      <inspection_tool class="SerialVersionUIDNotStaticFinal" enabled="true" level="WARNING" enabled_by_default="true" />
+      <inspection_tool class="SerializableHasSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true">
+        <option name="ignoreAnonymousInnerClasses" value="false" />
+        <option name="superClassString" value="java.awt.Component" />
+      </inspection_tool>
+      <inspection_tool class="SerializableHasSerializationMethods" enabled="true" level="WARNING" enabled_by_default="true">
+        <option name="ignoreAnonymousInnerClasses" value="false" />
+        <option name="superClassString" value="java.awt.Component" />
+      </inspection_tool>
+      <inspection_tool class="SerializableInnerClassHasSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true">
+        <option name="ignoreAnonymousInnerClasses" value="false" />
+        <option name="superClassString" value="java.awt.Component" />
+      </inspection_tool>
+      <inspection_tool class="SerializableInnerClassWithNonSerializableOuterClass" enabled="true" level="WARNING" enabled_by_default="true">
+        <option name="ignoreAnonymousInnerClasses" value="false" />
+        <option name="superClassString" value="java.awt.Component" />
+      </inspection_tool>
+      <inspection_tool class="SerializableWithUnconstructableAncestor" enabled="true" level="WARNING" enabled_by_default="true" />
+      <inspection_tool class="TransientFieldInNonSerializableClass" enabled="true" level="WARNING" enabled_by_default="true" />
+      <inspection_tool class="TransientFieldNotInitialized" enabled="true" level="WARNING" enabled_by_default="true" />
+    </profile>
+    <option name="PROJECT_PROFILE" value="Project Default" />
+    <option name="USE_PROJECT_PROFILE" value="true" />
+    <version value="1.0" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="Palette2">
+    <group name="Swing">
+      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
+      </item>
+      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
+      </item>
+      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
+      </item>
+      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
+        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
+      </item>
+      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
+        <initial-values>
+          <property name="text" value="Button" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+        <initial-values>
+          <property name="text" value="RadioButton" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+        <initial-values>
+          <property name="text" value="CheckBox" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
+        <initial-values>
+          <property name="text" value="Label" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+          <preferred-size width="150" height="-1" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+          <preferred-size width="150" height="-1" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+          <preferred-size width="150" height="-1" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
+      </item>
+      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+          <preferred-size width="200" height="200" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+          <preferred-size width="200" height="200" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+      </item>
+      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+      </item>
+      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
+      </item>
+      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
+      </item>
+      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
+          <preferred-size width="-1" height="20" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
+      </item>
+      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
+      </item>
+    </group>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/elastic_utils.iml" filepath="$PROJECT_DIR$/.idea/modules/elastic_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/elastic_utils-build.iml" filepath="$PROJECT_DIR$/.idea/modules/elastic_utils-build.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ScalaCompilerConfiguration">
+    <profile name="SBT 1" modules="elastic_snapshot" />
+  </component>
+  <component name="ScalaSbtSettings">
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/project" />
+          </set>
+        </option>
+        <option name="resolveClassifiers" value="true" />
+        <option name="resolveSbtClassifiers" value="true" />
+        <option name="sbtVersion" value="0.13.8" />
+        <option name="useAutoImport" value="true" />
+        <option name="useOurOwnAutoImport" value="true" />
+      </SbtProjectSettings>
+    </option>
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="" />
+  </component>
+  <component name="libraryTable">
+    <library name="SBT: com.sksamuel.elastic4s:elastic4s-core_2.11:1.6.1-SNAPSHOT:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/local/com.sksamuel.elastic4s/elastic4s-core_2.11/1.6.1-SNAPSHOT/jars/elastic4s-core_2.11.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/local/com.sksamuel.elastic4s/elastic4s-core_2.11/1.6.1-SNAPSHOT/docs/elastic4s-core_2.11-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/local/com.sksamuel.elastic4s/elastic4s-core_2.11/1.6.1-SNAPSHOT/srcs/elastic4s-core_2.11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.spatial4j:spatial4j:0.4.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.spatial4j/spatial4j/bundles/spatial4j-0.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.spatial4j/spatial4j/docs/spatial4j-0.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.spatial4j/spatial4j/srcs/spatial4j-0.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.antlr:antlr-runtime:3.5:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.antlr/antlr-runtime/jars/antlr-runtime-3.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.antlr/antlr-runtime/docs/antlr-runtime-3.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.antlr/antlr-runtime/srcs/antlr-runtime-3.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.apache.lucene:lucene-analyzers-common:4.10.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/jars/lucene-analyzers-common-4.10.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/docs/lucene-analyzers-common-4.10.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/srcs/lucene-analyzers-common-4.10.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.apache.lucene:lucene-core:4.10.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-core/jars/lucene-core-4.10.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-core/docs/lucene-core-4.10.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-core/srcs/lucene-core-4.10.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.apache.lucene:lucene-grouping:4.10.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-grouping/jars/lucene-grouping-4.10.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-grouping/docs/lucene-grouping-4.10.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-grouping/srcs/lucene-grouping-4.10.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.apache.lucene:lucene-highlighter:4.10.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-highlighter/jars/lucene-highlighter-4.10.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-highlighter/docs/lucene-highlighter-4.10.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-highlighter/srcs/lucene-highlighter-4.10.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.apache.lucene:lucene-join:4.10.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-join/jars/lucene-join-4.10.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-join/docs/lucene-join-4.10.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-join/srcs/lucene-join-4.10.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.apache.lucene:lucene-memory:4.10.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-memory/jars/lucene-memory-4.10.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-memory/docs/lucene-memory-4.10.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-memory/srcs/lucene-memory-4.10.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.apache.lucene:lucene-misc:4.10.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-misc/jars/lucene-misc-4.10.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-misc/docs/lucene-misc-4.10.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-misc/srcs/lucene-misc-4.10.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.apache.lucene:lucene-queries:4.10.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-queries/jars/lucene-queries-4.10.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-queries/docs/lucene-queries-4.10.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-queries/srcs/lucene-queries-4.10.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.apache.lucene:lucene-queryparser:4.10.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-queryparser/jars/lucene-queryparser-4.10.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-queryparser/docs/lucene-queryparser-4.10.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-queryparser/srcs/lucene-queryparser-4.10.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.apache.lucene:lucene-sandbox:4.10.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-sandbox/jars/lucene-sandbox-4.10.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-sandbox/docs/lucene-sandbox-4.10.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-sandbox/srcs/lucene-sandbox-4.10.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.apache.lucene:lucene-spatial:4.10.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-spatial/jars/lucene-spatial-4.10.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-spatial/docs/lucene-spatial-4.10.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-spatial/srcs/lucene-spatial-4.10.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.apache.lucene:lucene-suggest:4.10.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-suggest/jars/lucene-suggest-4.10.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-suggest/docs/lucene-suggest-4.10.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.lucene/lucene-suggest/srcs/lucene-suggest-4.10.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.elasticsearch:elasticsearch:1.6.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.elasticsearch/elasticsearch/jars/elasticsearch-1.6.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.elasticsearch/elasticsearch/srcs/elasticsearch-1.6.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.ow2.asm:asm-commons:4.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.ow2.asm/asm-commons/jars/asm-commons-4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.ow2.asm/asm-commons/docs/asm-commons-4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.ow2.asm/asm-commons/srcs/asm-commons-4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.ow2.asm:asm:4.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.ow2.asm/asm/jars/asm-4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.ow2.asm/asm/docs/asm-4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.ow2.asm/asm/srcs/asm-4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scala-lang.modules:scala-xml_2.11:1.0.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/docs/scala-xml_2.11-1.0.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scala-lang:scala-library:2.11.7:jar" type="Scala">
+      <properties>
+        <compiler-classpath>
+          <root url="file://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.7.jar" />
+          <root url="file://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar" />
+          <root url="file://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar" />
+        </compiler-classpath>
+      </properties>
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scoverage:scalac-scoverage-plugin_2.11:1.0.2:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.11/jars/scalac-scoverage-plugin_2.11-1.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.11/docs/scalac-scoverage-plugin_2.11-1.0.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.11/srcs/scalac-scoverage-plugin_2.11-1.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scoverage:scalac-scoverage-runtime_2.11:1.0.2:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.11/jars/scalac-scoverage-runtime_2.11-1.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.11/docs/scalac-scoverage-runtime_2.11-1.0.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.11/srcs/scalac-scoverage-runtime_2.11-1.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.slf4j:slf4j-api:1.7.12:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.12-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.yaml:snakeyaml:1.12:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.12.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.yaml/snakeyaml/docs/snakeyaml-1.12-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.yaml/snakeyaml/srcs/snakeyaml-1.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+</project>
